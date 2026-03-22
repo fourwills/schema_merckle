@@ -67,11 +67,3 @@ Airflow runs a Flask server as a GUI: http://172.20.0.4:8080/admin/
     # Run a backfill over 2 days (start, end)
     airflow backfill example_bash_operator -s 2017-08-17 -e 2017-08-19
 
-### MySQL
-
-Below steps assume MySQL is running on an IP Address of: `172.20.0.2`
-
-### RabbitMQ
-
-Below steps assume RabbitMQ is running on an IP Address of: `172.20.0.3`. A web UI will be available at: `172.20.0.3:15672` with the default login: `guest` and password: `guest`.
-

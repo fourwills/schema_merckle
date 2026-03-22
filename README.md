@@ -36,9 +36,9 @@ To attach to a running container (so you can see what outputs on the log), speci
 
 ### Airflow
 
-Below steps assume Airflow is running on an IP Address of: `172.20.0.4`
+Below steps assume Airflow is running on an IP Address of: `x.x.x.x`
 
-Airflow runs a Flask server as a GUI: http://172.20.0.4:8080/admin/
+Airflow runs a Flask server as a GUI: http://x.x.x.x:8080/admin/
 
 #### Airflow Commands
 
